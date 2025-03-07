@@ -17,5 +17,95 @@
 
 } */
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
+.cuerpo {
+    display: flex;
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 20%;
+    min-height: 100vh;
+}
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8EBE4;
+    width: 80%;
+    min-height: 100vh;
+    border: 1px solid #ccc;
+
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
+}
+
+.titulo {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 8px;
+}
+
+.subtitulo {
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+.usuarioprincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.iconosusuario {
+    display: flex;
+    gap: 1rem;
+    color: #828485;
+
+}
+
+.nombre {
+    font-size: 16px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+}
+
+
+.estado {
+    font-size: 10px;
+    color: #828485;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+}
+
+.tinythumbnail {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+}
 
