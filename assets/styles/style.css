@@ -33,6 +33,7 @@
     width: 20%;
     min-height: 100vh;
 }
+
 .principal {
     display: flex;
     flex-direction: column;
@@ -41,7 +42,7 @@
     background-color: #E8EBE4;
     width: 80%;
     min-height: 100vh;
-    border: 1px solid #ccc;
+    border: 1px solid #BEC1BB;
 
 }
 
@@ -72,7 +73,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #BEC1BB;
 }
 
 .userprincipal {
@@ -139,8 +140,8 @@
     justify-content: center;
     align-items: center;
     padding: 2.5em;
-    border-bottom: 1px solid #ccc;
-    
+    border-bottom: 1px solid #BEC1BB;
+
 }
 
 .boton button {
