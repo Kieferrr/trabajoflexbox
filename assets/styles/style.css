@@ -67,7 +67,7 @@
 }
 
 
-.usuarioprincipal {
+.usuarios {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,11 +75,20 @@
     border-bottom: 1px solid #ccc;
 }
 
-.usuario {
+.userprincipal {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
+
+.usersecundario {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 30px;
+
+}
+
 
 .iconosusuario {
     display: flex;
@@ -94,6 +103,14 @@
     font-weight: 400;
 }
 
+.mensaje {
+    font-size: 14px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    color: #1b1f21;
+
+}
+
 
 .estado {
     font-size: 10px;
@@ -105,7 +122,39 @@
 .tinythumbnail {
     border-radius: 50%;
     object-fit: cover;
+    height: 35px;
+    width: 35px;
+}
+
+.normalthumbnail {
+    border-radius: 50%;
+    object-fit: cover;
     height: 50px;
     width: 50px;
 }
 
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em;
+    border-bottom: 1px solid #ccc;
+    
+}
+
+.boton button {
+    border: 0px;
+    padding: 20px 60px 20px 60px;
+    background-color: #A491D2;
+    color: white;
+    font-size: 16px;
+}
+
+.boton button:hover {
+    background-color: #CDC3E6;
+}
+
+.boton button:focus {
+    background-color: #E8EBE4;
+}
